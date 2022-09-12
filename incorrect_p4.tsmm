@@ -1,4 +1,4 @@
 செயல்பாடு factorial(num: எண்) : எண் {        // function factorial(num: number) : number{
-    அனுப்புக (num === 0) ஆயின்  1;                // ERROR: return (num===0) if 1;
+    அனுப்புக (num === 0) ஆயின்  1;                // ERROR: return (num===0) if 1; will cause an error
     அல்லது அனுப்புக num * factorial(num - 1);    // else return num * factorial(num-1);
 }                                            //}
