@@ -2,5 +2,12 @@
 விடு str = "Hello World";   //let str = "Hello World";
 
 வளையம் (மாறி char உள்ள str) {    //for (var char of str)
-  console.log(char);       //console.log(char);
+  பதிவு(char);       //console.log(char);
+}
+
+விடு i: எண் = 0;
+
+பொழுதெல்லாம் (i < 5) {  //while(i < 5)
+    பதிவு(str[i]);   //console.log(str[i]);  
+    i++;
 }
