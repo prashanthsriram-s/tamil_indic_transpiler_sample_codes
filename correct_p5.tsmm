@@ -1,0 +1,14 @@
+செயல்பாடு binarySearch(nums: எண்[], target: எண்): எண் {
+  விடு left: எண் = 0;
+  விடு right: எண் = nums.length - 1;
+
+  while (left <= right) {
+    const mid: எண் = Math.floor((left + right) / 2);
+
+    if (nums[mid] === target) return mid;
+    if (target < nums[mid]) right = mid - 1;
+    else left = mid + 1;
+  }
+
+  return -1;
+}

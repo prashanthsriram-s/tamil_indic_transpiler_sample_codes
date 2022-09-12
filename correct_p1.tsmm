@@ -1,0 +1,2 @@
+விடு message: சரம் = 'Hello, World!'; // let message: string = 'Hello, World!';
+பதிவு(message);                      // console.log(message);
