@@ -6,9 +6,8 @@
     அனுப்புக a - b; //return a-b;
 } 
 
+மாறி sum: எண்= addNumbers("Hello", 15)     //var sum : number = addNumbers("Hello",15) //Argument mismatch as string is passed for int
+மாறி diff: எண்= subNumbers(20, வாய்மை)     //var diff : number = subNumbers(20,வாய்மை) //Argument type mismatch
 
-மாறி sum: எண்= addNumbers(10, 15)     //var sum : number = addNumbers(10,15)
-மாறி diff: எண்= subNumbers(20, 5)     //var diff : number = subNumbers(20,5)
-
-பதிவு(sum);   //log(sum);
+பதிவு(sum);   //log(sum); 
 பதிவு(diff);  //log(diff);
