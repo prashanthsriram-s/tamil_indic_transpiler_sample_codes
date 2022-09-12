@@ -1,0 +1,19 @@
+
+
+செயல்பாடு addNumbers(a: எண், b: எண்) { 
+    அனுப்புக a + b; 
+} 
+
+செயல்பாடு subNumbers(a: எண், b: எண்) { 
+    அனுப்புக a - b; 
+} 
+
+
+மாறி sum: எண்= addNumbers(10, 15) 
+மாறி diff: எண்= subNumbers(20, 5) 
+
+பதிவு(sum);
+பதிவு(diff);
+
+
+
