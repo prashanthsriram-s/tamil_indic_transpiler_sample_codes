@@ -1,0 +1,6 @@
+
+விடு str = "Hello World";   //let str = "Hello World";
+
+வளையம் (மாறி char உள்ள str) {    //for (var char of str)
+  console.log(char);       //console.log(char);
+}
