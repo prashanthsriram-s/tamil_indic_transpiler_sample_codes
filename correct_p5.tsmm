@@ -1,14 +1,23 @@
-செயல்பாடு binarySearch(nums: எண்[], target: எண்): எண் {
-  விடு left: எண் = 0;
-  விடு right: எண் = nums.length - 1;
+செயல்பாடு binarySearch(nums: எண்[], target: எண்): எண் { // function binarySearch(nums: number[], target: number): number{
+  விடு left: எண் = 0; // let left: number = 0;
+  விடு right: எண் = nums.length - 1; // let right: number = nums.length -1;
 
-  while (left <= right) {
-    const mid: எண் = Math.floor((left + right) / 2);
+  பொழுதெல்லாம் (left <= right) { // while(left <= right) {
+    விடு midf: எண் = (left+right); // let midf: number = (left+right);
+    ஆயின் (midf%2 === 0) // if(midf%2==0)
+    {
+      midf = midf/2; 
+    }
+    அல்லது  // else
+    {
+      midf = (midf-1)/2;
+    }
+    மாறிலி mid: எண் = midf; // const mid: number = midf;
 
-    if (nums[mid] === target) return mid;
-    if (target < nums[mid]) right = mid - 1;
-    else left = mid + 1;
+    ஆயின் (nums[mid] === target) அனுப்புக mid; // if(nums[mid]===target) return mid;
+    ஆயின் (target < nums[mid]) right = mid - 1; // if(target < nums[mid]) right = mid-1;
+    அல்லது left = mid + 1; // else left = mid+1;
   }
 
-  return -1;
+  அனுப்புக -1; // return -1;
 }
