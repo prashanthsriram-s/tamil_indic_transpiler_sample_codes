@@ -1,4 +1,4 @@
-செயல்பாடு factorial(num: எண்) : எண் { // function factorial(num: number) : number{
-    ஆயின் (num === 0) அனுப்புக 1;     // if(num===0) return 1;
-    அல்லது அனுப்புக num * factorial(num - 1); // else return num * factorial(num-1);
-}
+செயல்பாடு factorial(num: எண்) : எண் {        // function factorial(num: number) : number{
+    ஆயின் (num === 0) அனுப்புக 1;                // if(num===0) return 1;
+    அல்லது அனுப்புக num * factorial(num - 1);    // else return num * factorial(num-1);
+}                                            //}
