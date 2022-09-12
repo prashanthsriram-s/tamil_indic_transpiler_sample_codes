@@ -1,2 +1,2 @@
-வீடு message: சரம் = 'Hello, World!'; // வீடு was used instead of விடு, so cannot be transpiled
+வீடு message: சரம் = 'Hello, World!'; // ERROR: வீடு was used instead of விடு, so cannot be transpiled
 பதிவு(message);                      // console.log(message);
