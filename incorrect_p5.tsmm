@@ -1,0 +1,19 @@
+செயல்பாடு binarySearch(nums: எண்[], target: எண்): எண் { 
+  விடு left: எண் = 0; 
+  விடு right: எண் = nums; // ERROR: a number[] is tried to be assigned to a number.
+
+  பொழுதெல்லாம் (left <= right) { 
+    விடு midf: எண் = (left+right);
+    அல்லது  // ERROR: else is used without any preceding if
+    {
+      midf = (midf-1)/2;
+    }
+    மாறிலி mid: எண் = midf; 
+
+    ஆயின் (nums[mid] === target) அனுப்புக mid; 
+    ஆயின் (target < nums[mid]) right = mid - 1; 
+    அல்லது left = mid + 1;
+  }
+
+  அனுப்புக -1; 
+}
