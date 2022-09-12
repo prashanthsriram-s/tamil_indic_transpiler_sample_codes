@@ -7,7 +7,7 @@
 } 
 
 மாறி sum: எண்= addNumbers("Hello", 15)     //var sum : number = addNumbers("Hello",15) //Argument mismatch as string is passed for int
-மாறி diff: எண்= subNumbers(20, வாய்மை)     //var diff : number = subNumbers(20,வாய்மை) //Argument type mismatch
+மாறி diff: எண்= subNumbers(20, வாய்மை)     //var diff : number = subNumbers(20,true) //Argument type mismatch
 
 பதிவு(sum);   //log(sum); 
 பதிவு(diff);  //log(diff);
