@@ -1,0 +1,12 @@
+விடு str = "Hello World";   //let str = "Hello World";
+
+வளையம் (மாறி char உள்ள str) {    //for (var char of str)
+  பதிவு(char);       //console.log(char);
+}
+
+விடு i எண் = 0;   //Missed : so the transpiler should throw an error
+
+பொழுதெல்லாம் (i < 1000) {  //while(i < 1000)   //i goes till 1000 which is clearly out of range for the given string. So it should be an error
+    பதிவு(str[i]);   //console.log(str[i]);  
+    i++;
+}

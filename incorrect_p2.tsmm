@@ -1,0 +1,14 @@
+செயல்பாடு addNumbers(a: எண், b: எண்) {  //function addNumbers(a:number,b:number)
+    அனுப்புக a + b; //return a+b;
+} 
+
+செயல்பாடு subNumbers(a: எண், b: எண்) { //function subNumbers(a:number,b:number)
+    அனுப்புக a - b; //return a-b;
+} 
+
+
+மாறி sum: எண்= addNumbers(10, 15)     //var sum : number = addNumbers(10,15)
+மாறி diff: எண்= subNumbers(20, 5)     //var diff : number = subNumbers(20,5)
+
+பதிவு(sum);   //log(sum);
+பதிவு(diff);  //log(diff);
